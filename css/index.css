@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;400&family=Lato:wght@400;700&family=Poppins:wght@100;200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-image: linear-gradient(#BCDDF1, #4EA5D9) ;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+input {
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    
+}
+
+.info {
+    width: 560px;
+    height: 630px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 5px;
+    padding:20px;
+    box-shadow:3px 5px 3px #888888;
+}
+
+.info h3,p {
+    text-align: center;
+    padding: 8px 0;
+    
+}
+
+form .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+}
+
+form .form-group label {
+    flex: 20%;
+}
+
+form .form-group input {
+    flex: 80%;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.btn {
+    background-color: #206A97;
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    justify-content: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
